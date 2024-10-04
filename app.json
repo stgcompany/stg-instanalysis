@@ -11,16 +11,23 @@
       "backgroundColor": "#000000"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.stginstanalysis.app"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/stg-logo.png",
         "backgroundColor": "#000000"
-      }
+      },
+      "package": "com.stginstanalysis.app"
     },
     "web": {
       "favicon": "./assets/stg-logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c2f2cda9-c004-462b-b39a-a6a2c953394d"
+      }
     }
   }
 }
