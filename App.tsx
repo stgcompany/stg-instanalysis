@@ -1,13 +1,12 @@
 import React from 'react';
 import { SafeAreaView, View, TouchableOpacity, Text, Linking, StyleSheet, StatusBar } from 'react-native';
 import SparkleChat from 'react-native-sparkle-ai-chat';
-import Config from "react-native-config";
+import Constants from 'expo-constants';
 
 export default function App() {
   const openWebsite = () => {
     Linking.openURL('https://stgdigital.com.br');
   };
-
   return (
     <SafeAreaView style={styles.safeArea}>
       <StatusBar barStyle="light-content" backgroundColor="#000" />
@@ -19,7 +18,7 @@ export default function App() {
 
         <SparkleChat
           platform={'openai'}
-          apiKey={String(Config.OPENAI_KEY)}
+          apiKey={String(Constants.expoConfig?.extra?.OPENAI_KEY)}
           completionParams={{
             model: "gpt-4o-mini",
           }}
