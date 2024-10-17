@@ -38,3 +38,4 @@ instanalysis*.json
 
 # android builds
 android
+build-*
