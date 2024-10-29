@@ -6,22 +6,13 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal",
-      "env": {
-        "OPENAI_KEY": "process.env.OPENAI_KEY"
-      }
+      "distribution": "internal"
     },
     "preview": {
-      "distribution": "internal",
-      "env": {
-        "OPENAI_KEY": "process.env.OPENAI_KEY"
-      }
+      "distribution": "internal"
     },
     "production": {
-      "autoIncrement": true,
-      "env": {
-        "OPENAI_KEY": "process.env.OPENAI_KEY"
-      }
+      "autoIncrement": true
     }
   },
   "submit": {
