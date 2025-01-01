@@ -84,10 +84,10 @@ You'll need to copy and rename the `.env.example` file to `.env` for your API Ke
 Use one of these:
 
 ```bash
-npm start
-npm android
-npm ios
-npm web
+npm run start
+npm run android
+npm run ios
+npm run web
 ```
 You will be able to run the app on your default cellphone emulator installed on your machine or via the Expo app on your own cellphone.
 
