@@ -58,6 +58,12 @@ Before you start, ensure you have `node` and `npm` installed on your machine.
     npm install
     ```
 
+### Env. Variables
+
+This project has just one environment variable called `OPENAI_KEY`, which is the api key from your OpenAI API Account.
+
+You'll need to copy and rename the `.env.example` file to `.env` for your API Key to be detected.
+
 ### Mobile Emulation Dependencies
 
 #### Android:
